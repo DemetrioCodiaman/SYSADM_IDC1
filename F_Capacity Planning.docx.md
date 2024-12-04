@@ -53,6 +53,9 @@ Recall the e-commerce website scenario we discussed earlier. Given the expected 
 
 - The core switch acts as a single point of failure and may become overwhelmed under high traffic loads, while the edge router might lack the bandwidth or processing power to manage increased demand effectively. Inter-VLAN communication could cause congestion and latency, especially during peak periods, and the servers might become overloaded without sufficient scaling mechanisms. Additionally, the network is vulnerable to security threats like DDoS attacks, which could exploit the surge in traffic. To address these challenges, upgrading network hardware is essential, such as replacing the core switch with a higher-capacity Layer 3 switch and enhancing the edge router for better throughput and QoS capabilities. Load balancers can be deployed to distribute traffic evenly across servers, while introducing redundant core switches and configuring link aggregation will improve fault tolerance. Optimizing VLAN design by using Layer 3 switches for inter-VLAN routing and segmenting traffic with ACLs can enhance efficiency. Scalability can be further improved by integrating cloud-based solutions, SDN for dynamic traffic management, and increasing internet bandwidth to accommodate traffic spikes. Security measures such as firewalls, IDS/IPS systems, and DDoS protection should also be implemented alongside robust network monitoring tools to ensure real-time traffic analysis and proactive issue resolution. These strategies collectively enhance the network’s ability to scale, maintain performance, and ensure reliability during peak periods.
 
+
+![Screenshot 2024-12-04 091653](https://github.com/user-attachments/assets/787f4eec-d3d7-4c3f-b561-8a2d82b4cd43) 
+
 ![][image1]
 
 | Criteria | Excellent | 10pts | Good | 7pts | Needs Improvement | 4pts |
@@ -64,4 +67,4 @@ Recall the e-commerce website scenario we discussed earlier. Given the expected 
 | **Evaluation and Justification**  | Provides a thorough evaluation of the proposed solutions, considering factors like cost, complexity, and potential impact. | Provides a basic evaluation of the proposed solutions, but lacks depth. | Does not evaluate the proposed solutions or provides a superficial evaluation |
 | Score: |  |  |      /50 |
 
-[image1]: ![Screenshot 2024-12-04 091653](https://github.com/user-attachments/assets/787f4eec-d3d7-4c3f-b561-8a2d82b4cd43) 
+[image1]: 
