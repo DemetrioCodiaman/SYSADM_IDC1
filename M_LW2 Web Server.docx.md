@@ -15,7 +15,8 @@
 
 1. Install IIS by adding it as a role, select necessary features, include monitoring tools
 
-\- ![][image1]
+![image](https://github.com/user-attachments/assets/1434a804-16d6-4c9f-b400-445e11a1ae74)
+
 
 2. Create a website by opening IIS Manager 
 
@@ -25,7 +26,8 @@
 
    * Enter a name, description, physical path (where your website files will reside), IP address, port, and host name.
 
-   	![][image2]
+   	![image](https://github.com/user-attachments/assets/5b0f5827-0c1f-490d-9d0e-b973839c19bc)
+
 
 3. Configure the Website:
 
@@ -35,7 +37,8 @@
 
    * Configure other settings as needed (e.g., SSL certificates, authentication)
 
-   ![][image3]
+   ![image](https://github.com/user-attachments/assets/ec60b54d-59fe-4d8f-9178-4227e7733728)
+
 
 4. Create a Web Page:
 
@@ -43,7 +46,8 @@
 
      
 
-     
+     ![image](https://github.com/user-attachments/assets/28af867d-75b1-4128-8d66-c764fd6f3bf3)
+
 
    
 
@@ -57,7 +61,8 @@
 
    * Save it as default.html or your preferred name.
 
-   ![][image4]
+   ![image](https://github.com/user-attachments/assets/87f0612b-2fa4-45f6-bfac-63056cfe9eaf)
+
 
    
 
@@ -67,7 +72,8 @@
 
    * You should see your web page displayed.
 
-   ![][image5]
+   ![image](https://github.com/user-attachments/assets/2b6281e9-e3b6-4fb8-83dd-bf519930ac9f)
+
 
  
 
